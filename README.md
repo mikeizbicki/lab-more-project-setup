@@ -137,6 +137,7 @@ but we have no way to "automatically" test it.
 Automatic test cases are useful because:
 1. they make working on large projects much easier
 1. you can prove to me (Mike) that your homeworks are correct
+
     (I never actually run other people's code because I don't want to be rickrolled/hacked.)
 
 So our goal is to make an automatic test case that proves that the REPL (Read Eval Print Loop) above works.
@@ -331,11 +332,10 @@ You should observe that there is now only one line not covered by your doctests,
 and a much higher coverage percentage!
 
 As you can see, getting high coverage for your code can be difficult and time consuming.
-Higher is always better, but for most real-world projects, getting 100% is unrealistic.
+Higher is always better, but for most real-world projects, getting 100% coverage is unrealistic.
 
-<img width=400px src=img/no-time-for-that.jpg />
-
-<img width=400px src=img/jedi-tests.jpg />
+<img width=50% src=img/no-time-for-that.jpg />
+<img width=50% src=img/jedi-tests.jpg />
 
 ### API keys with github actions
 
