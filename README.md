@@ -334,8 +334,8 @@ and a much higher coverage percentage!
 As you can see, getting high coverage for your code can be difficult and time consuming.
 Higher is always better, but for most real-world projects, getting 100% coverage is unrealistic.
 
-<img width=45% src=img/no-time-for-that.jpg />
-<img width=45% src=img/jedi-tests.jpg />
+<img width=40% src=img/no-time-for-that.jpg />
+<img width=40% src=img/jedi-tests.jpg />
 
 ### API keys with github actions
 
