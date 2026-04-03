@@ -465,5 +465,6 @@ You must have a README file that
 1. Contains a green `integration-test` badge.
 1. A 1-2 sentence description of your project.
 1. A link to your pypi project page.
+    (The pypi project page must include your git README inside of it.  So, for example, I should be able to see your test case badges in the pypi page as well.)
 
 Recall that you will lose points for any unnecessary files contained in your git repo.
