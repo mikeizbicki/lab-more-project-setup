@@ -10,6 +10,9 @@ You will learn:
 
 The code you write for this lab will be the basis of your next project.
 
+> **FYI**:
+> I will have to leave by noon again today.
+
 ## Tasks
 
 This lab continues from the `llm-inclass` project we were building in class.
@@ -411,6 +414,9 @@ Follow [this tutorial](https://realpython.com/pypi-publish-python-package/) to u
 > At this point, you have seen that there are many files that get created at many points in the development process that we do not want added to our git repo.
 > Github maintains a list of useful `.gitignore` files for different types of projects.
 > You might consider using their file, which you can find at <https://github.com/github/gitignore/blob/main/Python.gitignore>.
+
+Once you think everything is working, I strongly encourage you to get someone else to download your project from pypi.
+(But that won't be part of your grade.)
 
 ### Integration Tests
 
