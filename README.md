@@ -418,11 +418,14 @@ Follow [this tutorial](https://realpython.com/pypi-publish-python-package/) to u
 
 **A:** We test it!
 
-The doctests are an example of what are called *unit tests*,
-that test just one part of your program at a time.
-An *integration test* is a test that runs everything together all at once and ensures these "units integrate well".
+The doctests are an example of what are called *unit tests*:
+they test just one "unit" of your program at a time (typically a function/class).
+An *integration test* is a test that runs everything together all at once.
+It ensures these individual units work well with each other.
+They typically run everything in the code "end-to-end",
+and use the same interface that a user sees when running the program.
 
-<img width=400px src=img/integration.webp />
+<img width=300px src=img/integration.webp />
 
 The following code provides a simple example of an integration test for this project:
 ```
@@ -437,6 +440,12 @@ But notice that it doesn't actually check what the output is.
 A more complicated integration test could verify that we get the "correct" output,
 but this simple integration test just verifies that we don't get any errors,
 which is good enough for us for now.
+
+> **NOTE:**
+> One reason why programmers like terminal programs is because they are easy to write integration tests for.
+> Web applications and mobile apps, in contrast, are very hard to write integration tests for.
+> For example, it is hard to programmatically move the mouse around to click various buttons the way a user might,
+> and it is hard to verify that the program did not generate any errors after a button click has happened.
 
 Create a new github action called `integration-tests` that runs the simple integration test above.
 
